@@ -1,4 +1,4 @@
-FROM node:fermium-bullseye
+FROM node:fermium-bullseye-slim
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
